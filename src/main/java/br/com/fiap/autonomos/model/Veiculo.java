@@ -111,6 +111,9 @@ public class Veiculo implements Serializable {
 	public void emViagem() {
 		this.setStatus(Status.VIAGEM);
 	}
+	public void emTransito() {
+		this.setStatus(Status.TRANSITO);
+	}
 	public void disponivel() {
 		this.setStatus(Status.DISPONIVEL);
 	}
